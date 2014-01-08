@@ -21,6 +21,10 @@
 		00BE6496187CFCC3001537B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BE6478187CFCC3001537B8 /* UIKit.framework */; };
 		00BE649E187CFCC3001537B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00BE649C187CFCC3001537B8 /* InfoPlist.strings */; };
 		00BE64A0187CFCC3001537B8 /* Ex254Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BE649F187CFCC3001537B8 /* Ex254Tests.m */; };
+		00BE64B7187D00A3001537B8 /* i3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00BE64B3187D00A3001537B8 /* i3.jpeg */; };
+		00BE64B8187D00A3001537B8 /* i2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00BE64B4187D00A3001537B8 /* i2.jpeg */; };
+		00BE64B9187D00A3001537B8 /* i1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00BE64B5187D00A3001537B8 /* i1.jpeg */; };
+		00BE64BA187D00A3001537B8 /* i0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00BE64B6187D00A3001537B8 /* i0.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		00BE649B187CFCC3001537B8 /* Ex254Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex254Tests-Info.plist"; sourceTree = "<group>"; };
 		00BE649D187CFCC3001537B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00BE649F187CFCC3001537B8 /* Ex254Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex254Tests.m; sourceTree = "<group>"; };
+		00BE64B3187D00A3001537B8 /* i3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = i3.jpeg; sourceTree = "<group>"; };
+		00BE64B4187D00A3001537B8 /* i2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = i2.jpeg; sourceTree = "<group>"; };
+		00BE64B5187D00A3001537B8 /* i1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = i1.jpeg; sourceTree = "<group>"; };
+		00BE64B6187D00A3001537B8 /* i0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = i0.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,10 @@
 		00BE647A187CFCC3001537B8 /* Ex254 */ = {
 			isa = PBXGroup;
 			children = (
+				00BE64B3187D00A3001537B8 /* i3.jpeg */,
+				00BE64B4187D00A3001537B8 /* i2.jpeg */,
+				00BE64B5187D00A3001537B8 /* i1.jpeg */,
+				00BE64B6187D00A3001537B8 /* i0.jpeg */,
 				00BE6483187CFCC3001537B8 /* AppDelegate.h */,
 				00BE6484187CFCC3001537B8 /* AppDelegate.m */,
 				00BE6486187CFCC3001537B8 /* Main.storyboard */,
@@ -230,7 +242,11 @@
 			files = (
 				00BE648D187CFCC3001537B8 /* Images.xcassets in Resources */,
 				00BE647F187CFCC3001537B8 /* InfoPlist.strings in Resources */,
+				00BE64BA187D00A3001537B8 /* i0.jpeg in Resources */,
 				00BE6488187CFCC3001537B8 /* Main.storyboard in Resources */,
+				00BE64B9187D00A3001537B8 /* i1.jpeg in Resources */,
+				00BE64B8187D00A3001537B8 /* i2.jpeg in Resources */,
+				00BE64B7187D00A3001537B8 /* i3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +476,7 @@
 				00BE64A5187CFCC3001537B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00BE64A6187CFCC3001537B8 /* Build configuration list for PBXNativeTarget "Ex254Tests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +485,7 @@
 				00BE64A8187CFCC3001537B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
